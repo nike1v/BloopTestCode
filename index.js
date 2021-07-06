@@ -1,7 +1,6 @@
 const axios = require("axios");
 const sqlite3 = require("sqlite3").verbose();
 const cheerio = require('cheerio');
-const { list } = require("tar");
 
 const db = new sqlite3.Database(':memory:');
 const urlParse = "https://www.rottentomatoes.com/browse/opening";
